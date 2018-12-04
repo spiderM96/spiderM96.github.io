@@ -81,13 +81,13 @@
 
 <meta name="description" content="多读书 多运动">
 <meta property="og:type" content="website">
-<meta property="og:title" content="KangXin Cheng">
+<meta property="og:title" content="CKX的博客">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="KangXin Cheng">
+<meta property="og:site_name" content="CKX的博客">
 <meta property="og:description" content="多读书 多运动">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="KangXin Cheng">
+<meta name="twitter:title" content="CKX的博客">
 <meta name="twitter:description" content="多读书 多运动">
 
 
@@ -124,7 +124,7 @@
 
 
 
-  <title>KangXin Cheng</title>
+  <title>CKX的博客</title>
   
 
 
@@ -155,7 +155,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">KangXin Cheng</span>
+        <span class="site-title">CKX的博客</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -209,16 +209,6 @@
           </a>
         </li>
       
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
-            
-            归档
-          </a>
-        </li>
-      
 
       
     </ul>
@@ -252,16 +242,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/04/Opendaylight 模块开发流程梳理/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/05/26/Opendaylight模块开发流程梳理/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="KangXin Cheng">
+      <meta itemprop="name" content="KX Cheng">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/uploads/avatar.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="KangXin Cheng">
+      <meta itemprop="name" content="CKX的博客">
     </span>
 
     
@@ -271,7 +261,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/12/04/Opendaylight 模块开发流程梳理/" itemprop="url">未命名</a></h1>
+                <a class="post-title-link" href="/2017/05/26/Opendaylight模块开发流程梳理/" itemprop="url">opendaylight</a></h1>
         
 
         <div class="post-meta">
@@ -283,8 +273,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-04T14:27:19+08:00">
-                2018-12-04
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-26T12:12:57+08:00">
+                2017-05-26
               </time>
             
 
@@ -293,6 +283,28 @@
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/opendaylight/" itemprop="url" rel="index">
+                    <span itemprop="name">opendaylight</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -323,142 +335,15 @@
       
         
           
-          [TOC]
-Opendaylight 模块开发流程梳理文章主要基于ODL distribution-karaf-0.6.4-Carbon版本，进行插件的构建、安装、部署，文章以helloWorld为例。
+          Opendaylight 模块开发流程梳理文章主要基于ODL distribution-karaf-0.6.4-Carbon版本，进行插件的构建、安装、部署，文章以helloWorld为例。
 一、开发环境
 Ubuntu14.04，java1.8以上环境，maven3.5.4
 
-配置mav
+配置maven set
           ...
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/12/04/Opendaylight 模块开发流程梳理/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/04/hello-world/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="KangXin Cheng">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/uploads/avatar.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="KangXin Cheng">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/12/04/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-04T11:27:59+08:00">
-                2018-12-04
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/12/04/hello-world/#more" rel="contents">
+            <a class="btn" href="/2017/05/26/Opendaylight模块开发流程梳理/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -531,9 +416,9 @@ Ubuntu14.04，java1.8以上环境，maven3.5.4
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image" src="/uploads/avatar.jpg" alt="KangXin Cheng">
+              <img class="site-author-image" itemprop="image" src="/uploads/avatar.jpg" alt="KX Cheng">
             
-              <p class="site-author-name" itemprop="name">KangXin Cheng</p>
+              <p class="site-author-name" itemprop="name">KX Cheng</p>
               <p class="site-description motion-element" itemprop="description">多读书 多运动</p>
           </div>
 
@@ -542,14 +427,23 @@ Ubuntu14.04，java1.8以上环境，maven3.5.4
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/archives/">
+                <a href="/archives">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
 
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
             
 
             
@@ -558,6 +452,16 @@ Ubuntu14.04，java1.8以上环境，maven3.5.4
 
           
 
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/spiderM96/" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+            </div>
           
 
           
@@ -589,7 +493,7 @@ Ubuntu14.04，java1.8以上环境，maven3.5.4
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">KangXin Cheng</span>
+  <span class="author" itemprop="copyrightHolder">KX Cheng</span>
 
   
 </div>
